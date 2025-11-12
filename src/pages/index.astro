@@ -9,5 +9,57 @@ import Button from "../components/Button.astro";
 ---
 
 <MainLayout title="Titel">
-  <main class="container mx-auto p-4"></main>
+  <main class="p-4">
+    <div class="hero min-h-screen" style="background-image: url(/img/Baggrundsbillede.png);">
+      <div class="hero-overlay"></div>
+      <div class="hero-content text-neutral-content text-center">
+        <div class="max-w-md">
+          <h1 class="mb-5 text-5xl font-bold">En ny vinoplevelse hver måned</h1>
+          <p class="mb-5">Få håndplukkede rødvine leveret direkte til døren. Smag, lær og nyd — uden at løfte en finger.</p>
+          <button class="btn">Udforsk abonnementer</button>
+        </div>
+      </div>
+    </div>
+    <section class="my-20 flex flex-row items-center gap-10">
+      <!-- Kasse 1 -->
+      <div class="card bg-base-100 w-96 shadow-sm">
+        <figure>
+          <img src="/img/Rødvinskasse.png" alt="Rødvinskasse" />
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title">Rødvinskasse 1</h2>
+          <p>Lækkert udvagt med en masse auroma og smagsnuancer.</p>
+          <div class="card-actions justify-end">
+            <button class="btn" style="background-color: var(--color-BG-primary); color: var(--color-text-secondary);">Buy Now</button>
+          </div>
+        </div>
+      </div>
+      <!-- Kasse 2 -->
+      <div class="card bg-base-100 w-96 shadow-sm">
+        <figure>
+          <img src="/img/Rødvinskasse.png" alt="Rødvinskasse" />
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title">Rødvinskasse 2</h2>
+          <p>Lækkert udvagt med en masse auroma og smagsnuancer.</p>
+          <div class="card-actions justify-end">
+            <button class="btn" style="background-color: var(--color-BG-primary); color: var(--color-text-secondary);">Buy Now</button>
+          </div>
+        </div>
+      </div>
+      <!-- Kasse 3 -->
+      <div class="card bg-base-100 w-96 shadow-sm">
+        <figure>
+          <img src="/img/Rødvinskasse.png" alt="Rødvinskasse" />
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title">Rødvinskasse 3</h2>
+          <p>Lækkert udvagt med en masse auroma og smagsnuancer.</p>
+          <div class="card-actions justify-end">
+            <button class="btn" style="background-color: var(--color-BG-primary); color: var(--color-text-secondary);">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 </MainLayout>
